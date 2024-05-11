@@ -4,10 +4,10 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        Foo().GetAwaiter().GetResult();
+        FooAsync().GetAwaiter().GetResult();
     }
 
-    public static async Task Foo()
+    public static async Task FooAsync()
     {
         await Task.Yield();
         Console.WriteLine("Hello, World!");
