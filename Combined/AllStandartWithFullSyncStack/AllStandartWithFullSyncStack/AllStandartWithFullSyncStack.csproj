@@ -7,4 +7,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AllStandartWithFullSyncStack.GetResult\AllStandartWithFullSyncStack.GetResult.csproj" />
+    <ProjectReference Include="..\AllStandartWithFullSyncStack.Result\AllStandartWithFullSyncStack.Result.csproj" />
+    <ProjectReference Include="..\AllStandartWithFullSyncStack.Sync\AllStandartWithFullSyncStack.Sync.csproj" />
+    <ProjectReference Include="..\AllStandartWithFullSyncStack.Wait\AllStandartWithFullSyncStack.Wait.csproj" />
+  </ItemGroup>
+
 </Project>
