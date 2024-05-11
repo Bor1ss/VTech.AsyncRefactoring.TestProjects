@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ThirdPartyAsyncMethods.SubProj\ThirdPartyAsyncMethods.SubProj.csproj" />
+  </ItemGroup>
+
 </Project>

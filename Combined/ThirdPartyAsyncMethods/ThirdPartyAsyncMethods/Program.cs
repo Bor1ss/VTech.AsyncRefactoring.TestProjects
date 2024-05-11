@@ -1,9 +1,14 @@
-﻿namespace ThirdPartyAsyncMethods;
+﻿using ThirdPartyAsyncMethods.SubProj;
+
+namespace ThirdPartyAsyncMethods;
 
 internal class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        HttpClientBlocking.Foo();
+        TaskBlocking.Foo();
+        FileReadingBlocking.Foo();
+        BlobReadBlocking.Foo();
     }
 }

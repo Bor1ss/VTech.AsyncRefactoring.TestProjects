@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdPartyAsyncMethods", "ThirdPartyAsyncMethods\ThirdPartyAsyncMethods.csproj", "{DCBF1A34-8D96-4974-80A6-842623C7F0A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThirdPartyAsyncMethods", "ThirdPartyAsyncMethods\ThirdPartyAsyncMethods.csproj", "{DCBF1A34-8D96-4974-80A6-842623C7F0A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdPartyAsyncMethods.SubProj", "ThirdPartyAsyncMethods.SubProj\ThirdPartyAsyncMethods.SubProj.csproj", "{DD693D5F-9461-41B6-89CD-921D64207898}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{DCBF1A34-8D96-4974-80A6-842623C7F0A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCBF1A34-8D96-4974-80A6-842623C7F0A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCBF1A34-8D96-4974-80A6-842623C7F0A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD693D5F-9461-41B6-89CD-921D64207898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD693D5F-9461-41B6-89CD-921D64207898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD693D5F-9461-41B6-89CD-921D64207898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD693D5F-9461-41B6-89CD-921D64207898}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
