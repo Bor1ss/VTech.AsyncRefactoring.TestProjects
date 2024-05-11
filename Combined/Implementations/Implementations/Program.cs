@@ -4,6 +4,10 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        FooBase fooBase = new();
+
+        string strRes = fooBase.Foo();
+
+        Console.WriteLine(strRes);
     }
 }
