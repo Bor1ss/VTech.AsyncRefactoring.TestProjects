@@ -1,9 +1,18 @@
-﻿namespace MultiProjects.AllStandart;
+﻿using MultiProjects.AllStandart.GetResult;
+using MultiProjects.AllStandart.Result;
+using MultiProjects.AllStandart.Wait;
+
+namespace MultiProjects.AllStandart;
 
 internal class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        _  = GetResultClass.Foo();
+
+        ResultClass resultClass = new();
+        string resResult = resultClass.Foo();
+
+        WaitClass.Foo();
     }
 }

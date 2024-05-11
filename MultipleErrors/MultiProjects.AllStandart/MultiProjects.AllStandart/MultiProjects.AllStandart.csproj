@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MultiProjects.AllStandart.GetResult\MultiProjects.AllStandart.GetResult.csproj" />
+    <ProjectReference Include="..\MultiProjects.AllStandart.Result\MultiProjects.AllStandart.Result.csproj" />
+    <ProjectReference Include="..\MultiProjects.AllStandart.Wait\MultiProjects.AllStandart.Wait.csproj" />
+  </ItemGroup>
+
 </Project>
