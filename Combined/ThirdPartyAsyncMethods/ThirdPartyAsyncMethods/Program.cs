@@ -1,14 +1,14 @@
-﻿using ThirdPartyAsyncMethods.SubProj;
+using ThirdPartyAsyncMethods.SubProj;
 
 namespace ThirdPartyAsyncMethods;
 
 internal class Program
 {
-    static void Main(string[] args)
+    static async Task Main(string[] args)
     {
-        HttpClientBlocking.Foo();
-        TaskBlocking.Foo();
-        FileReadingBlocking.Foo();
-        BlobReadBlocking.Foo();
+        await HttpClientBlocking.FooAsync();
+        await TaskBlocking.FooAsync();
+        await FileReadingBlocking.FooAsync();
+        await BlobReadBlocking.FooAsync();
     }
 }

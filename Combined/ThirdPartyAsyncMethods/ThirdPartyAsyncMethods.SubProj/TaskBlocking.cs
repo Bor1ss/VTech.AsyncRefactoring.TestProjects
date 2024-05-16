@@ -1,10 +1,10 @@
-﻿namespace ThirdPartyAsyncMethods.SubProj;
+namespace ThirdPartyAsyncMethods.SubProj;
 
 public class TaskBlocking
 {
-    public static void Foo()
+    public static async Task FooAsync()
     {
-        Task.Factory.StartNew(Bar).Wait();
+        await Task.Factory.StartNew(Bar);
     }
 
     public static void Bar()
