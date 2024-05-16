@@ -2,10 +2,9 @@
 
 public class TaskBlocking
 {
-    public static void Foo()
+    public static async Task Foo()
     {
-        //Task.Factory.StartNew(Bar).Wait();
-        Console.WriteLine("Bar");
+        await Task.Factory.StartNew(Bar);
     }
 
     public static void Bar()
