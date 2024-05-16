@@ -4,7 +4,7 @@ public class TaskBlocking
 {
     public static void Foo()
     {
-        Task.Factory.StartNew(Bar).Wait();
+        Bar();
     }
 
     public static void Bar()

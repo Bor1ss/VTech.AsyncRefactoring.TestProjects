@@ -3,7 +3,7 @@
 namespace ThirdPartyAsyncMethods.SubProj;
 public class BlobReadBlocking
 {
-    public static void Foo()
+    public static async Task Foo()
     {
         BlobContainerClient _blobContainerClient = new("connstri", "foldername");
 
@@ -11,6 +11,6 @@ public class BlobReadBlocking
 
         Stream data = FileStream.Null;
 
-        blobClient.UploadAsync(data, true).Wait();
+        await blobClient.UploadAsync(data, true);
     }
 }

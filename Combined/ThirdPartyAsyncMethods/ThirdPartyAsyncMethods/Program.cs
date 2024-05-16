@@ -4,11 +4,11 @@ namespace ThirdPartyAsyncMethods;
 
 internal class Program
 {
-    static void Main(string[] args)
+    static async Task Main(string[] args)
     {
-        HttpClientBlocking.Foo();
+        await HttpClientBlocking.Foo();
         TaskBlocking.Foo();
-        FileReadingBlocking.Foo();
-        BlobReadBlocking.Foo();
+        await FileReadingBlocking.Foo();
+        await BlobReadBlocking.Foo();
     }
 }
