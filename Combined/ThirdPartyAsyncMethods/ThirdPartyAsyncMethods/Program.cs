@@ -6,9 +6,9 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        HttpClientBlocking.Foo();
+        _ = HttpClientBlocking.Foo();
         TaskBlocking.Foo();
-        FileReadingBlocking.Foo();
-        BlobReadBlocking.Foo();
+        _ = FileReadingBlocking.Foo();
+        _ = BlobReadBlocking.Foo();
     }
 }
