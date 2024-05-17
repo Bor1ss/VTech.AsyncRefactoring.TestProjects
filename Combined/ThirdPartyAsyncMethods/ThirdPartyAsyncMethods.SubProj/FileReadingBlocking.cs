@@ -1,8 +1,8 @@
 ﻿namespace ThirdPartyAsyncMethods.SubProj;
 public class FileReadingBlocking
 {
-    public static string Foo()
+    public static async Task<string> FooAsync()
     {
-        return File.ReadAllTextAsync("").GetAwaiter().GetResult();
+        return await File.ReadAllTextAsync("");
     }
 }
